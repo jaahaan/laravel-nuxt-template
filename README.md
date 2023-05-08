@@ -14,3 +14,15 @@
 "universal-cookie": "^4.0.4",
 "sass": "^1.55.0",
 "sass-loader": "^10.3.1"
+
+# Setup
+
+# For Backend
+
+$ composer update
+$ cp .env.example .env
+$ php artisan key:generate
+
+# For Frontend
+
+$ npm install
